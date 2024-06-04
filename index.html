@@ -1,5 +1,10 @@
 <!DOCTYPE HTML>
 <html>
+	
+	<link rel="icon" href="/img/ico/logoca.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/img/ico/logoca.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/png/logoca.png">
+
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,6 +35,16 @@
 	<!-- Import main.css -->
     <link rel="stylesheet" href="./css/main.css" />
 
+	<script>
+        function copyEmail() {
+            var emailField = document.getElementById("email");
+            emailField.select();
+            emailField.setSelectionRange(0, 99999); // Para dispositivos móviles
+            document.execCommand("copy");
+            alert("Correo copiado: " + emailField.value);
+        }
+    </script>
+
 	</head>
 	<body>
 
@@ -44,20 +59,18 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(img/png/foto2.png);"></div>
+							<div class="profile-thumb" style="background: url(img/jpg/foto-principal.jpg);"></div>
 							<h1><span>Carlos Adonai</span></h1>
 							<h2><span>Desarrollador Full Stack Jr</span></h2>
 							<h2><span>Ingeniero en Tecnologías de la Información y Comunicaciones</span></h2>
+
+							<button class="copy-button" onclick="copyEmail()">carlos.adonai.reyes@gmail.com</button>
+							<input type="text" value="carlos.adonai.reyes@gmail.com" id="email" style="position:absolute; left:-9999px;">
 							<p>
 								<ul class="fh5co-social-icons">
-									
 									<li><a href="https://www.linkedin.com/in/carlos-adonai-reyes-barrientos/" target="_blank"><i class="icon-linkedin2"></i></a></li>
-
 									<li><a target="_blank" href="https://wa.link/g8xw24"><i class="icon-whatsapp"></i></a></li>
-
-									<li><a href="emailto:me@reyadonaii.com"><i
-									class="icon-email"></i></a></li>
-
+									<li><a target="_blank" href="https://wa.link/g8xw24"><i class="icon-file-pdf"></i></a></li>
 								</ul>
 							</p>
 						</div>
@@ -71,45 +84,52 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Acerca de</h2>
+					<h1>Acerca de</h1>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<ul class="info">
 						<li><span class="first-block">Teléfono:</span><span class="second-block">55-6455-8535</span></li>
-						<li><span class="first-block">Correo:</span><span class="second-block"><a href="emailto:me@carlosadonaireyes.com">me@carlosadonaireyes.com</a></span></li>
 						<li><span class="first-block">Web:</span><span class="second-block">carlosadonaireyes.com</span></li>
 						<li><span class="first-block">Ubicación:</span><span class="second-block">Naucalpan, Estado de México</span></li>
+						<li><a target="_blank" href="#">Descargar CV</a> </li>
+
 					</ul>
 				</div>
 				<div class="col-md-8">
 					<h2>¿Quién es Carlos Adonai Reyes Barrientos?</h2>
-					<p>Soy un joven de 25 años con más de 2 años de experiencia en el desarrollo de sistemas de software, egresado de la carrera de Ingeniería en Tecnologías de la Información y Comunicaciones con título y cédula profesional por el Instituto Tecnológico de Tlalnepantla. He resuelto incidencias de programación en Magento 2.4.6, en PHP, GIT, Laravel 10, consumo de API´s, he construido consultas en MariaDB, MySQL, SQL Server y BigQuery, además de realizar reportes de información. He desplegado aplicaciones en Linux con Debian, Ubuntu y Magento Cloud, lo más destacable en mi carrera ha sido en contribuir en el desarrollo e implementación de dos aplicaciones en Laravel 10 para la gestión del POG que sirve para la administración del inventario y el sistema de etiquetado de productos del piso de venta, lo cual generó un ahorro de 20 mil dólares optimizando los costos del área de TI en Bed Bath and Beyond México. Además, sé programar en Java 8 utilizando el framework Spring.</p>
+					<p>Soy un joven de 25 años con más de 2 años de experiencia en el desarrollo de sistemas de software, egresado de la carrera de Ingeniería en Tecnologías de la Información y Comunicaciones con título y cédula profesional por el Instituto Tecnológico de Tlalnepantla. He resuelto incidencias de programación en Magento 2.4.6, en PHP, GIT, Laravel 10, consumo de API´s, he construido consultas en MariaDB, MySQL, SQL Server y BigQuery, además de realizar reportes de información. He desplegado aplicaciones en Linux con Debian, Ubuntu y Magento Cloud, lo más destacable en mi carrera ha sido en contribuir en el desarrollo e implementación de dos aplicaciones en Laravel 10 para la gestión del POG que sirve para la administración del inventario y el sistema de etiquetado de productos del piso de venta, lo cual generó un importante ahorro optimizando los costos del área de TI en Bed Bath and Beyond México. Además, sé programar en Java versión 8 utilizando Spring.</p>
 					
 					<p>
 						<ul class="fh5co-social-icons">
-							
-						<li><a href="https://www.linkedin.com/in/carlos-adonai-reyes-barrientos/" target="_blank"><i class="icon-linkedin2"></i></a></li>
-
-						<li><a target="_blank" href="https://wa.link/g8xw24"><i class="icon-whatsapp"></i></a></li>
-
-						<li><a href="emailto:me@reyadonaii.com"><i class="icon-email"></i></a></li>
-
-							
-							
+							<li><a href="https://www.linkedin.com/in/carlos-adonai-reyes-barrientos/" target="_blank"><i class="icon-linkedin2"></i></a></li>
+							<li><a target="_blank" href="https://wa.link/g8xw24"><i class="icon-whatsapp"></i></a></li>											
 						</ul>
 					</p>
+					<div>
+						<button class="copy-button" onclick="copyEmail()">carlos.adonai.reyes@gmail.com</button>
+						<input type="text" value="carlos.adonai.reyes@gmail.com" id="email" style="position:absolute; left:-9999px;">
+					</div>
+					<br>
+
 				</div>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<iframe width="1120" height="630" src="https://www.youtube.com/embed/vgCtVHGWv0A?si=jJdQErVzbasmeRtL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
+
 
 	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Resumen</h2>
+					<h1>Resumen</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -126,18 +146,18 @@
 								<div class="timeline-heading">
 									<h2 class="timeline-title">Desarrollador Jr</h2>
 									<p>Bed Bath and Beyond México <br>
-										Junio 2023 - Presente
+										19 de Junio, 2023 - 30 de Mayo, 2024
 									</p>
 								</div>
 								<div class="timeline-body">
 									<ul class="list-unstyled">
-										<li>Consumo de API´s. </li>
-										<li>Debugeo de código en Laravel, PHP y mantenimiento de la tienda en línea en Magento 2.4.6. </li>
-										<li>Reportes de bases de datos en MySQL, MariaDB, SQL Server y BigQuery. </li>
-										<li>Despliegue de aplicaciones en Linux (Debian y Ubuntu). </li>
-										<li>Manejo de Git para el control de versiones dentro del repositorio en Bitbucket. </li>
-										<li>Resolví incidencias en SAP por medio de sus transacciones para el apoyo a la reallocation de pedidos de la tienda en línea. </li>
-										<li>Contribuí con el desarrollo e implementación de dos sistemas en Laravel 10 para las tiendas físicas de la compañía, los cuales sirven para el etiquetado de precios de los productos en los estantes ubicados dentro de la bodega y del piso de venta, además el sistema POG el cual sirve para la gestión y administración del inventario, ambos desarrollos generaron un ahorro de 20 mil dólares optimizando los costos del área de TI. </li>
+										<li>•	Consumo de API´s. </li>
+										<li>•	Debugeo de código en Laravel, PHP y mantenimiento de la tienda en línea en Magento 2.4.6. </li>
+										<li>•	Reportes de bases de datos en MySQL, MariaDB, SQL Server y BigQuery. </li>
+										<li>•	Despliegue de aplicaciones en Linux (Debian y Ubuntu). </li>
+										<li>•	Manejo de Git para el control de versiones dentro del repositorio en Bitbucket. </li>
+										<li>•	Resolví incidencias en SAP por medio de sus transacciones para el apoyo a la reallocation de pedidos de la tienda en línea. </li>
+										<li>•	Contribuí con el desarrollo e implementación de dos sistemas en Laravel 10 para las tiendas físicas de la compañía, los cuales sirven para el etiquetado de precios de los productos en los estantes ubicados dentro de la bodega y del piso de venta, además el sistema POG el cual sirve para la gestión y administración del inventario, ambos desarrollos generaron un importante ahorro optimizando los costos del área de TI</li>
 									</ul>
 								</div>
 							</div>
@@ -153,8 +173,8 @@
 								</div>
 								<div class="timeline-body">
 									<ul class="list-unstyled">
-										<li>Gestión de la plataforma Splunk.</li>
-										<li>Creación de dashboards, reportes y alertas con entradas avanzadas.</li>
+										<li>•	Gestión de la plataforma Splunk.</li>
+										<li>•	Creación de dashboards, reportes y alertas con entradas avanzadas.</li>
 									</ul>
 								</div>
 							</div>
@@ -171,10 +191,10 @@
 								<div class="timeline-body">
 									<div class="timeline-body">
 										<ul class="list-unstyled">
-											<li>Desarrollo web front-end en HTML, CSS, JS y PHP.</li>
-											<li>Desarrollo de sistema en Drupal 7 para la gestión de documentos.</li>
-											<li>Backups diarios de las bases de datos.</li>
-											<li>Despliegue de aplicaciones en Windows Server 2019. </li>
+											<li>•	Desarrollo web front-end en HTML, CSS, JS y PHP.</li>
+											<li>•	Desarrollo de sistema en Drupal 7 para la gestión de documentos.</li>
+											<li>•	Backups diarios de las bases de datos.</li>
+											<li>•	Despliegue de aplicaciones en Windows Server 2019. </li>
 										</ul>
 									</div>
 								</div>
@@ -191,11 +211,11 @@
 								<div class="timeline-body">
 									<div class="timeline-body">
 										<ul class="list-unstyled">
-											<li>En la pandemia inicie un emprendimiento.</li>
-											<li>Ofreciendo servicios integrales que incluyen soporte técnico, mantenimiento de equipos, configuración de redes LAN y WAN,  creación de páginas web.</li>
-											<li>Desarrollé habilidades de atención al cliente, desarrollo de aplicaciones y comercio electrónico.</li>
-											<li>Me enfoco en proporcionar soluciones tecnológicas integrales que satisfagan las necesidades específicas de mis clientes, contribuyendo a su crecimiento y eficiencia en el entorno digital.</li>
-											<li>Actualmente, me dedico exclusivamente a la administración de forma remota de este negocio.</li>
+											<li>•	En la pandemia inicie un emprendimiento.</li>
+											<li>•	Ofreciendo servicios integrales que incluyen soporte técnico, mantenimiento de equipos, configuración de redes LAN y WAN,  creación de páginas web.</li>
+											<li>•	Desarrollé habilidades de atención al cliente, desarrollo de aplicaciones y comercio electrónico.</li>
+											<li>•	Me enfoco en proporcionar soluciones tecnológicas integrales que satisfagan las necesidades específicas de mis clientes, contribuyendo a su crecimiento y eficiencia en el entorno digital.</li>
+											<li>•	Actualmente, me dedico exclusivamente a la administración de forma remota de este negocio.</li>
 										</ul>
 									</div>
 								</div>
@@ -217,7 +237,7 @@
 								<div class="timeline-heading">
 									<h2 class="timeline-title">Ingeniería en Tecnologías de la Información y Comunicaciones</h2>
 									<p>INSTITUTO TECNOLÓGICO DE TLALNEPANTLA <br>
-										2016-2022
+										2016-2023
 									</p>
 								</div>
 								<div class="timeline-body">
@@ -246,14 +266,14 @@
 								</div>
 								<div class="timeline-body">
 									<ul class="list-unstyled">
-										<li>Curso práctico de PHP</li>
-										<li>Curso de PHP con Composer</li>
-										<li>Curso de manejo de datos en PHP</li>
-										<li>Curso de programación orientada a objetos en PHP</li>
-										<li>Curso de patrones de diseño y buenas practicas en PHP</li>
-										<li>Curso de PHP: Entornos virtuales y funciones avanzadas</li>
-										<li>Curso de introducción a Laravel 9</li>
-										<li>Curso de API REST con Laravel</li>
+										<li>•	Curso práctico de PHP</li>
+										<li>•	Curso de PHP con Composer</li>
+										<li>•	Curso de manejo de datos en PHP</li>
+										<li>•	Curso de programación orientada a objetos en PHP</li>
+										<li>•	Curso de patrones de diseño y buenas practicas en PHP</li>
+										<li>•	Curso de PHP: Entornos virtuales y funciones avanzadas</li>
+										<li>•	Curso de introducción a Laravel 9</li>
+										<li>•	Curso de API REST con Laravel</li>
 									</ul>
 								</div>
 							</div>
@@ -269,13 +289,13 @@
 								<div class="timeline-body">
 									<div class="timeline-body">
 										<ul class="list-unstyled">
-										<li>Curso de Java SE orientado a objetos</li>
-										<li>Curso de Kotlin desde cero</li>
-										<li>Curso de Java SE: SQL y Bases de Datos</li>
-										<li>Curso Basico de testing en Java</li>
-										<li>Curso de programación funcional en Java SE</li>
-										<li>Curso de Java Spring</li>
-										<li>Curso de introducción al Despliegue de Aplicaciones</li>
+										<li>•	Curso de Java SE orientado a objetos</li>
+										<li>•	Curso de Kotlin desde cero</li>
+										<li>•	Curso de Java SE: SQL y Bases de Datos</li>
+										<li>•	Curso Basico de testing en Java</li>
+										<li>•	Curso de programación funcional en Java SE</li>
+										<li>•	Curso de Java Spring</li>
+										<li>•	Curso de introducción al Despliegue de Aplicaciones</li>
 										</ul>
 									</div>
 								</div>
@@ -517,10 +537,10 @@
 					<div class="chart" data-percent="85"><span><strong>MariaDB</strong>85%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>AngularJS</strong>80%</span></div>
+					<div class="chart" data-percent="80"><span><strong>Debian 12</strong>80%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>Linux Ubuntu & Debian 12</strong>80%</span></div>
+					<div class="chart" data-percent="80"><span><strong>Ubuntu</strong>80%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="80"><span><strong>SQL SERVER</strong>80%</span></div>
