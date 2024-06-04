@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: 2196F3;
+  color: #1488CC;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: 2196F3;
+  color: #1488CC;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: 2196F3;
+  background: #1488CC;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: 2196F3;
+  background: #1488CC;
 }
 
 ::selection {
   color: #fff;
-  background: 2196F3;
+  background: #1488CC;
 }
 
 #fh5co-header,
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: 2196F3;
+  background: #1488CC;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: 2196F3 !important;
+  color: #1488CC !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: 2196F3;
+  background: #1488CC;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: 2196F3;
+  color: #1488CC;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: 2196F3;
+  background: #1488CC;
 }
 
 .fh5co-heading {
@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: 2196F3;
+  background-color: #1488CC;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -804,7 +804,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: 2196F3;
+  color: #1488CC;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1114,21 +1114,21 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: 2196F3;
+  background: #1488CC;
   color: #fff;
-  border: 2px solid 2196F3;
+  border: 2px solid #1488CC;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: 2196F3 !important;
-  border-color: 2196F3 !important;
+  background: #1488CC !important;
+  border-color: #1488CC !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: 2196F3;
-  border: 2px solid 2196F3;
+  color: #1488CC;
+  border: 2px solid #1488CC;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: 2196F3;
+  background: #1488CC;
   color: #fff;
 }
 
@@ -1258,7 +1258,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: 2196F3;
+  border-color: #1488CC;
 }
 
 .row-pb-md {
