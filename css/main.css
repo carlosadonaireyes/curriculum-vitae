@@ -81,7 +81,7 @@
 }
 
 .user-projects li {
-    color: #1488CC;
+    color: 2196F3;
     font-size: 1.1rem
 }
 
@@ -1630,7 +1630,7 @@
 }
 
 .user-projects li {
-    color: #1488CC;
+    color: 2196F3;
     font-size: 1.1rem
 }
 
@@ -1653,9 +1653,9 @@
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #1488CC;
+    color: 2196F3;
     background-color: transparent;
-    border: 1px solid #1488CC;
+    border: 1px solid 2196F3;
     border-radius: 10px;
     text-align: center;
     outline: 0;
